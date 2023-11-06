@@ -1,2 +1,56 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    /*line-height: 37px;*/
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    color: #8B8B8B;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.banner {
+    font-size: 13px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: #407BFF1F 0 4px 6px;
+}
+
+.banner p {
+    line-height: 17px;
+}
+
+/*.banner img {
+    display: block;
+}*/
+
+.button1,
+.button2 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 10px 30px;
+    background-color: #407BFF;
+    border-radius: 20px;
+    border: none;
+    display: block;
+}
+
+.grey-button {
+    background-color: #8B8B8B;
+}
