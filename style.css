@@ -50,7 +50,8 @@ h1::after {
     height: 80px;
     width: 460px;
     margin-bottom: 15px;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .baner:last-of-type {
