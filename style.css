@@ -8,7 +8,7 @@ body {
 }
 
 .happy-traveler {
-    margin: 60px auto 0 auto;
+    margin-top: 60px;
 }
 
 h1 {
@@ -40,7 +40,7 @@ h1::after {
 }
 
 .main-text p{
-    margin: 30px auto;
+    margin-bottom: 30px;
 }
 
 .banner {
@@ -67,6 +67,7 @@ h1::after {
 .banner img{
     float: left;
     margin: 20px;
+    width: 40px;
 }
 
 .master-banner {
@@ -78,11 +79,11 @@ h1::after {
     margin-bottom: 60px;
 }
 
-.button1,
-.button2 {
+.button1 {
     font-size: 14px;
     color: #FFFFFF;
     font-weight: 400;
+    height: 40px;
     padding: 10px 30px;
     background-color: #407BFF;
     border-radius: 20px;
@@ -94,4 +95,63 @@ h1::after {
 .grey-button {
     background-color: #8B8B8B;
     margin: 10px auto 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+    h1 {
+        margin: 30px auto 40px auto;
+    }
+
+    h2 {
+        margin: 80px auto 15px auto;
+    }
+    
+    p {
+        max-width: 550px;
+    }
+    
+    .banner {
+        min-height: 170px;
+        max-width: 230px;
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .banner p{
+        text-align: center;
+        margin: 20px 15px;
+    }
+    
+    .banner img{
+        margin: 0;
+        height: 40px;
+        width: auto;
+    }
+    
+    .master-banner {
+        margin: 40px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .master-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .button1 {
+        margin: 0 10px 0 0;
+    }
+    
+    .grey-button {
+        margin: 0 0 0 10px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    
 }
