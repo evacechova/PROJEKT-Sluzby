@@ -162,7 +162,7 @@ h1::after {
 @media screen and (min-width: 1100px) {
     body {
         max-width: 1040px;
-        margin: 60px 80px;
+        margin: 60px auto;
     }
 
     .grid {
